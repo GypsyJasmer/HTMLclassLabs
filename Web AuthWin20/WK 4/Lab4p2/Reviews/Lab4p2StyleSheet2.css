@@ -1,0 +1,78 @@
+/*
+    Create a external CSS file with the following types of rules:
+        A rule that uses a single HTML element as a selector.
+        A rule that uses multiple HTML elements as selectors.
+        A rule that uses an id as a selector.
+        A rule that uses a class as a selector.
+
+    Link the CSS file to the HTML page.
+
+    Apply each of the style rules in at least one place on the page.
+
+    Add at least one embedded style to the HTML page.
+
+    Use at least one in-line style on the HTML page.
+*/
+
+
+body {
+
+    background: linear-gradient(328deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 25%,rgba(226, 226, 226, 0.05) 25%, rgba(226, 226, 226, 0.05) 50%,rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%,rgba(216, 216, 216, 0.05) 75%, rgba(216, 216, 216, 0.05) 100%),linear-gradient(172deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 25%,rgba(108, 108, 108, 0.05) 25%, rgba(108, 108, 108, 0.05) 50%,rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%,rgba(236, 236, 236, 0.05) 75%, rgba(236, 236, 236, 0.05) 100%),linear-gradient(207deg, rgba(153, 153, 153, 0.05) 0%, rgba(153, 153, 153, 0.05) 25%,rgba(83, 83, 83, 0.05) 25%, rgba(83, 83, 83, 0.05) 50%,rgba(5, 5, 5, 0.05) 50%, rgba(5, 5, 5, 0.05) 75%,rgba(82, 82, 82, 0.05) 75%, rgba(82, 82, 82, 0.05) 100%),linear-gradient(297deg, rgba(26, 26, 26, 0.05) 0%, rgba(26, 26, 26, 0.05) 25%,rgba(223, 223, 223, 0.05) 25%, rgba(223, 223, 223, 0.05) 50%,rgba(232, 232, 232, 0.05) 50%, rgba(232, 232, 232, 0.05) 75%,rgba(153, 153, 153, 0.05) 75%, rgba(153, 153, 153, 0.05) 100%),linear-gradient(204deg, rgba(120, 120, 120, 0.05) 0%, rgba(120, 120, 120, 0.05) 25%,rgba(191, 191, 191, 0.05) 25%, rgba(191, 191, 191, 0.05) 50%,rgba(246, 246, 246, 0.05) 50%, rgba(246, 246, 246, 0.05) 75%,rgba(123, 123, 123, 0.05) 75%, rgba(123, 123, 123, 0.05) 100%),linear-gradient(90deg, rgb(60, 199, 213),rgb(124, 159, 221));
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+    
+  }
+
+figure{
+    text-align: center;
+    color: #000033
+
+}
+
+  
+section {
+
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color:rgb(239, 239, 245, 0.3);
+    
+
+    text-align:left;
+    color: #000066;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  h1{
+    font-style: bold;
+    color: #000033
+  }
+
+  /*id tag*/
+#cap {
+    color: #000033;
+    font-size:larger;
+
+}
+
+/*class tag for many items*/
+.mainPoints {
+    color: #000033;
+}
+
+
+  /*hyperlinke color for hover or visited*/
+a:visited {
+  color:#ff0066;
+}
+
+a:hover {
+  color: purple;
+}
+
+  

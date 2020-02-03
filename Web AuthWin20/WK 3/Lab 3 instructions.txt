@@ -1,0 +1,147 @@
+Overview
+
+Learn how to add various types of site navigation links to your web site.
+Learning Objectives
+
+By the end of this week, students will be able to:
+
+    Design and implement site structure
+        *Create a site map - Brians site design notes
+			Nav Bar - Home|Services|About|Contact US| Client Login //on everypage of websites
+			Footer
+			
+			Site Map for folders and usablitlty for the webpages http://www.highlands97405.com/
+			*Home 
+				*HOA Members
+					-photos
+					-documents
+					-a way back Home 
+				*Realtor & Buyers
+					-documents
+					-External urls that go to local services
+					-a way back Home 
+				*Documents
+					-pdf don't have a way back home besides back button
+				*Adobe Reader
+					-external link
+			
+		
+        *How to opwn a link in a new tab, the target blank
+			- <a href="https://www.w3schools.com" target = "_blank" >Visit W3Schools.com!</a> 
+			-target can be used in the base tab too. 
+		*Set a base path //changin default directory just for that page. 
+		//Always the <header> if it was in Lab #2 it'd be set in Home page so the paths for reviews would just be the file name. 
+			   <!-- other stuff left out -->
+				<base href="Reviews/" target="_blank">
+		*Mark a location with the id attribute //mark the target with the ID attribute
+		*Create a link to an id
+			-Top
+			<h1 id="top" > Text/heading at the top of page </h1>
+			<a href="#top">Top of Page</a>
+			
+			-Target with id
+				<nav>
+
+				  On this page:<br>
+
+				  <a href="#intro">Introduction</a><br>
+
+				  <a href="#grow">Where the Beans are Grown</a><br>
+
+				  <a href="#roast">How the Beans are roasted</a><br>
+
+				</nav>
+
+
+				<h2 id="intro">Introduction</h2>
+
+				<!-- content omitted, could have been a large block of text -->
+
+				<h2 id="grow">Where the Beans are Grown</h2>
+
+				<!-- content omitted again -->
+
+				<h2 id="roast">How the Beans are Roasted</h2>
+			
+        
+			
+
+    Create other types of links
+
+        *Mark an image as a link
+			<a href="https://lanecc.edu"><img src="LccLogo.png"></a>
+			
+			BLack Goose //anchor tag enclosed in a figure caption tag
+			    <a href="http://www.signosenclave.com/red/sites/bistrofinal/">
+				  <figure>
+					<img src="blackgoose.png" alt="logo" width="120px">
+					<figcaption>Black Goose Logo</figcaption>
+				  </figure>
+				</a>
+        *Create an image map -- Brians image map notes
+			-Downloaded example South India, finshed, index
+			-How to identifiy the px address open image in paint: x, y = width first, height second 
+				coords="240,250,325,325"
+				Square/rectangle = 1st x, y only
+				Circle = x, y, radius
+				Poly = last coord is to get you to your first coord. 
+				default = everything else that is not linked. The entire size of the image. 
+					coords="0,0,650,625"
+			
+        *Understand URLs
+        *Link to a resource on the Web
+        *Link to an e-mail address
+			<a href="mailto:webmaster@example.com">Send an e-mail</a>
+        *Work with hypertext attributes
+        *Work with metadata
+		
+
+	 
+		
+
+CIS 195, Web Authoring 1: HTML
+Lab 3 Instructions
+
+ 
+Part 1: A web page with internal links (looks at planets) 
+
+Create a single web page that gives a short catalog of information. An example is the page I wrote in class on the planets in our solar system. The page should have a list of items at the top with internal links to sections on the same page containing information related to each item. The page should use each of the following HTML elements:
+
+    A <nav> element containing a list of links.
+
+    It doesn't have to be an actual <uo> or <ol> element, it could be a series of links with <br> tags after each one so they are arranged vertically.
+
+    Hyperlink, <a>, elements with href attributes that link to id attributes in elements on the same page.
+
+    Image links. These are just hyperlinks with images inside instead of text.
+
+    A hyperlink to an e-mail address.
+
+ 
+Part 2: A web page with an image map (South India)
+
+Create another web page which contains a picture of your choice that has at least three regions that are appropriate for hot-spots.
+
+    Create hot-spots for each of the regions in the picture.
+    Use each of the three hot-spot shapes (rect, circle and poly) at least once.
+    Each hot-spot should link to another page.
+    The linked pages should all be in a single sub-folder. There should be at least three linked pages in the folder.
+    At least one of the links should go to an internal location in another page ( a link to an id).
+    **Use the <base> elsement to specify the sub-folder that contains the linked pages.
+
+Check your pages using the W3C HTML Validator
+
+ 
+Submitting your web sites to Moodle
+
+    Zip the files in part 1
+
+    Zip the files in part 2
+
+    Upload both zip files to Moodle using the lab submission link.
+
+     
+
+ 
+
+ 

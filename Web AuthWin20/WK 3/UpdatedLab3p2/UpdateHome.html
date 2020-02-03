@@ -1,0 +1,66 @@
+   <!--
+      Create another web page which contains a picture of your choice that has at least three regions that are appropriate for hot-spots.
+
+    Create hot-spots for each of the regions in the picture.
+    Use each of the three hot-spot shapes (rect, circle and poly) at least once.
+    Each hot-spot should link to another page.
+    The linked pages should all be in a single sub-folder. There should be at least three linked pages in the folder.
+    At least one of the links should go to an internal location in another page ( a link to an id).
+    **Use the <base> elsement to specify the sub-folder that contains the linked pages.
+
+    *Set a base path //changin default directory just for that page. 
+		//Always the <header> if it was in Lab #2 it'd be set in Home page so the paths for reviews would just be the file name. 
+			  
+               <base href="Reviews/" target="_blank">
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Middle Earth</title>
+    <meta charset="UTF-8" />
+    <base href="LocationPages/" target="_blank">
+
+    <style>                  
+        body {
+          background-image: url("http://getwallpapers.com/wallpaper/full/2/4/8/961000-vertical-backgrounds-green-2048x1536.jpg");
+        }
+      </style>
+        <!--added style rule above, this is your background image, SS-->
+</head>
+
+<body style ="color:#FFF8DC">
+    <header>
+        <h1 >A Guide to Middle Earth</h1>
+    </header>
+
+    <nav>
+        <a href="../UpdateHome.html" >Home</a> |<a href="TheShire/TheShireHome.html" >The Shire</a> | 
+        <a href="Rohan/RohanHome.html" >Rohan</a> | <a href="Gondor/GondorHome.html" >Gondor</a> |
+        <a href="Mordor/MordorHome.html" >Mordor</a>
+    </nav>
+
+    <h2>Map of Middle Earth</h2>
+
+    <section>
+        Please click on areas of the map to take to see a closer look of the region. 
+    </section>
+
+
+    <img src="../Images/7ab07e24249467.5635513e84f74.jpg" alt="Map of Middle Earth" usemap="#MiddleEarth" />
+    <map name="MiddleEarth">
+        <area shape="circle" coords="198,125,50" href="TheShire/TheShireHome.html" alt="The Shire" />
+        <area shape="rect" coords="326,211,420,270" href="Rohan/RohanHome.html" alt="Rohan" />
+        <!--corners area 326,211,326,270,420,211,420,270-->
+        <area shape="circle" coords="445,294,50" href="Gondor/GondorHome.html" alt="Gondor" />
+        <area shape="poly" coords="474,250,448,325,498,365,604,363,604,248,515,247,474,325" href="Mordor/MordorHome.html" alt="Mordor" />
+        <area shape="default" coords="610,434" href="../UpdateHome.html" alt="Home">
+    </map>
+
+
+    <area shape="poly" coords="350,230,360,250,330,270,350,230" >
+
+</body>
+</html>

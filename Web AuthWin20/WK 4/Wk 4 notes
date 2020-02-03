@@ -1,0 +1,128 @@
+By the end of this week you will:
+
+    Understand and use basic concepts of CSS (Cascading Style Sheets)
+        Define a style rule
+        Understand style precedence and inheritance
+        Apply color using CSS
+        Understand Explore CSS3 color extensions
+
+    Understand and use different types of selectors
+        Use contextual selectors
+        Work with attribute selectors
+        Apply text and font styles
+
+    Install a Web font
+
+    Understand and use Pseudo-classes
+        Define list styles
+        Use pseudo-classes and pseudo-elements
+        Create a rollover effect
+
+https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W04-D1-StylingWithCSS.html
+
+https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html
+
+https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.html
+
+
+Lab 4 Instructions
+Using CSS to Format Web Pages
+
+You will practice using CSS by applying it to the web sites you made in lab 2.
+Part 1
+
+You will use the web page from lab 2, part 1 as your starting point. Lab 2 1st review sheet
+
+    Create a external CSS file with the following types of rules:
+        A rule that uses a single HTML element as a selector.
+        A rule that uses multiple HTML elements as selectors.
+        A rule that uses an id as a selector.
+        A rule that uses a class as a selector.
+
+    Link the CSS file to the HTML page.
+
+    Apply each of the style rules in at least one place on the page.
+
+    Add at least one embedded style to the HTML page.
+
+    Use at least on in-line style on the HTML page.
+
+Part 2
+
+Use lab 2, part 2 as a starting point. (It was a review site with a home page and at least three review pages.) All Lab 2
+
+    Create a external style sheet (.css file) with:
+        At least eight rules.
+        At least four different kinds of selectors.
+        At least eight different property types.
+
+    Link the external style sheet to every HTML page in your site.
+
+    Each page should be affected by at least one of the style rules in the external style sheet.
+
+    Add at least one embedded style to at least four of your pages.
+
+    Use at least one in-line style in at least four of your pages.
+
+Check your pages using the W3C HTML Validator and the W3C CSS Validator.
+
+ 
+Submitting your web sites to Moodle
+
+    Zip the files in part 1
+
+    Zip the files in part 2
+
+    Upload both zip files to Moodle using the lab submission link.
+
+     
+
+    ](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+Creative Commons License Web Authoring Lab Instructions by Brian Bird are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+ 
+
+ Background CSS notes
+ 
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+
+Boarder
+p.normal {
+  border: 2px solid red;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+body p ***note space and then what element you want{
+} same as this would be used more in listing ul li {} sytle would effect all lists in a list or anything as a sub/decendant nested. or create a class 
+p{}
+
+
+
+

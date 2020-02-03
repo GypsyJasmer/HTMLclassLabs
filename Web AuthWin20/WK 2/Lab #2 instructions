@@ -1,0 +1,50 @@
+
+
+CIS 195, Web Authoring
+Lab 2 Instructions
+
+Review:
+Julie of the wolves
+Screwtape letters
+The Hobbit
+
+ 
+Part 1: Practice with elements
+
+Create a single web page that presents a review of a book, movie, or music album of your choice and that uses 
+what you learned last week as well as each of the following at least once:
+
+    The <blockquote> element.
+    The <figure> and <figcaption> elements.
+    Special characters like ♥.
+    A nested list.
+    A horizontal rule.
+    Comments.
+
+Check your page using the W3C HTML Validator
+
+ 
+Part 2: A multipage web site (home pg 1, reviews in a subfolder 3 reviews total.)
+
+Create a review site that contains a home page and at least three review pages (you can re-use the page above).
+
+    All the reviews will be in a sub-folder named reviews.
+    Each review page should have at least one figure on it.
+    All the images should be in one folder named images.
+
+Check your pages using the W3C HTML Validator
+
+ 
+Submitting your web sites to Moodle
+
+    Zip the files in part 1
+
+    Zip the files in part 2
+
+    Upload both zip files to Moodle using the Lab 2 Submission link.
+
+     
+
+ 
+
+ 

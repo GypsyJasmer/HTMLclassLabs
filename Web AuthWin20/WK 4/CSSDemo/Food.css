@@ -1,0 +1,39 @@
+/* External style-sheet */
+
+header {
+    color: rgba(255, 0, 255, 0.9);
+}
+
+section {
+    background-color: lightblue;
+    color: purple;
+}
+
+p, li {
+    font-family:arial;
+}
+/*section> or element+ aren't used often*/
+section>header {
+    font-style: italic;
+}
+
+header+p {
+    font-variant: small-caps; 
+}
+
+/*id tag*/
+#food {
+    color:olivedrab;
+}
+/*class tag for many items*/
+.bigger {
+    font-size:larger;
+}
+/*hyperlinke color for hover or visited*/
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color: purple;
+}

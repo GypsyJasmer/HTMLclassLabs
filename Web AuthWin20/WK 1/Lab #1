@@ -1,0 +1,30 @@
+<!--Create a web site that consists of at least two pages and presents a mini biography of yourself (or another person). 
+Be creative, organize the page as you like and include whatever content you wish. 
+However you must use each of the HTML features listed above. That is use
+    multiple headings (h1, h2, etc)
+    at least two links
+    multiple text formatting features
+    at least two images
+    multiple line breaks
+    at least two semantic/structural elements
+    at least one ordered list
+    at least one unordered list.-->
+	
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>The Rock</title>
+<meta charset="UTF-8">
+</head>
+
+
+<body>
+
+<h1>Dwayne "The Rock" Johnson</h1>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
